@@ -1,0 +1,257 @@
+.vehicles-right-section {
+  text-align: left;
+}
+
+.list-view {
+  margin: 0;
+  margin-bottom: 10px;
+  width: auto;
+  height: 36px;
+  display: flex;
+  justify-self: right;
+}
+
+.list-view p {
+  margin: 0;
+  color: #a9d15a;
+}
+
+.upp-right {
+  background-color: #fff;
+  margin-bottom: 30px;
+  display: flex;
+  max-height: 6rem;
+}
+
+.upp-right-left {
+  width: 50%;
+}
+
+.upp-right ul {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 4px;
+}
+
+.upp-right li {
+  padding: 20px 25px;
+  color: white;
+  background-color: var(--primary-green--);
+  cursor: pointer;
+}
+
+.upp-right .offer-item {
+  background-color: inherit;
+  color: black;
+  transition: all 0.15s;
+}
+
+.upp-right .offer-item:hover {
+  color: white;
+  background-color: var(--primary-green--);
+}
+
+.upp-right-right {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.upp-right-right h6 {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.6rem;
+  font-weight: normal;
+  color: #232323;
+  font-family: "Poppins", sans-serif;
+}
+
+.upp-right-right select {
+  width: 160px;
+  background-color: #ffffff;
+  border: none;
+  padding: 12px;
+}
+
+.upp-right-right select:active {
+  outline: none;
+  border: none;
+}
+
+.info-car ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.info-car li {
+  margin-left: 0;
+  display: inline-block;
+  font-size: 18px;
+  color: #1f1d22;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.card {
+  width: 360px;
+  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+}
+
+.card img {
+  width: 360px;
+}
+
+.info-car {
+  padding: 15px;
+}
+
+/* .cars {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.p {
+  color: #232323;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+.p:hover {
+  color: #a9d15a;
+  cursor: pointer;
+}
+
+.green-p {
+  color: #a9d15a;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+.loct {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #a0a0a0;
+  font-size: 16px;
+}
+
+.h3-car {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.green-div {
+  display: flex;
+  justify-self: flex-end;
+} */
+
+/* VEHICLE LISTAA-------------------- */
+
+.vehicles-for-sale_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.vehicles-for-sale_list .vehicle img {
+  cursor: pointer;
+}
+
+.vehicles-for-sale_list .vehicle {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.vehicles-for-sale_list .upper-grid {
+  padding: 1.5rem;
+  padding-bottom: 0;
+}
+
+.vehicles-for-sale_list .upper-grid div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.vehicles-for-sale_list h5 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.vehicles-for-sale_list .vehicle img {
+  width: 100%;
+}
+
+.vehicles-for-sale_list .vehicle div {
+  text-align: left;
+}
+
+.vehicles-for-sale_list .vehicle h5 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.vehicles-for-sale_list .vehicle p {
+  color: #a0a0a0;
+  margin: 1rem 0;
+}
+
+.vehicles-for-sale_list .price {
+  text-align: right;
+  font-size: 2.5rem;
+  margin-right: 10rem;
+}
+
+.vehicles-for-sale_list .vehicle .price {
+  color: var(--primary-green--);
+  text-align: right;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.vehicles-for-sale_list .vehicle div h5 {
+  font-size: 2rem;
+}
+
+.vehicles-for-sale_list .vehicle span {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.vehicles-for-sale_list .vehicle div svg {
+  fill: #a0a0a0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.vehicles-for-sale_list .stats {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 1.45fr);
+  background-color: inherit;
+  padding: 1.5rem;
+  padding-top: 0;
+}
+
+.vehicles-for-sale_list .stats p {
+  color: black;
+}
+
+.vehicles-for-sale_list .stats p svg {
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-right: 0.35rem;
+}

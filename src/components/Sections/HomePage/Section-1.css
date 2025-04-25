@@ -1,0 +1,120 @@
+.offers {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+  padding: 0;
+  position: relative;
+}
+
+.offers div {
+  text-align: left;
+  padding: 14rem 15rem;
+  color: white;
+}
+
+.offers div h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.offers div h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  color: #ffff00;
+}
+
+.offers div p {
+  text-transform: uppercase;
+  margin-top: 3rem;
+  font-size: 1.7rem;
+}
+
+.offers div button {
+  margin-top: 5rem;
+  color: white;
+  background-color: var(--primary-green--);
+  border: none;
+  text-transform: uppercase;
+  padding: 2rem 3.5rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.offers div button:hover {
+  background-color: #00ab80;
+  transition: all 0.15s;
+}
+
+.offers .arrow-left,
+.offers .arrow-right {
+  background: transparent;
+  border: none;
+  position: absolute;
+}
+
+.offers .arrow-right {
+  top: 47.5%;
+  right: 4.5%;
+}
+
+.offers .arrow-left {
+  top: 47.5%;
+  left: 4%;
+}
+
+.offers .arrow-left img,
+.offers .arrow-right img {
+  width: 4rem;
+  cursor: pointer;
+}
+
+/* 2ND COMPONENT */
+
+.why-one-leasing {
+  font-family: "Poppins", sans-serif;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 5rem 15rem 2rem;
+}
+
+.why-one-leasing span {
+  color: var(--primary-green--);
+}
+
+.why-one-leasing div li {
+  font-size: 1.5rem;
+  text-align: left;
+  color: var(--secondary-color--);
+  line-height: 2.7rem;
+}
+
+.why-one-leasing h2 {
+  color: var(--primary-color--);
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.why-one-leasing img {
+  width: 55rem;
+}
+
+.why-one-leasing .black-line {
+  background-color: black;
+  height: 1px;
+  width: 10rem;
+  margin: 0 0 0.55rem 0;
+}
+
+.why-one-leasing .black-line2 {
+  background-color: black;
+  height: 1px;
+  width: 6rem;
+  margin: 0 0 2rem 0;
+}

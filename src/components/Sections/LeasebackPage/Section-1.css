@@ -1,0 +1,51 @@
+.offers4 {
+  background-image: url("../../../../public/assets/images/cars-3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+  padding: 0;
+  position: relative;
+}
+
+.offers4 div {
+  text-align: left;
+  padding: 14rem 15rem;
+  color: white;
+}
+
+.offers4 div h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.8rem;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.offers4 div h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  margin: 1rem 0;
+  color: #ffff00;
+}
+
+.offers4 div p {
+  margin-top: 3rem;
+  font-size: 1.9rem;
+}
+
+.offers4 div button {
+  font-family: "Arial", sans-serif;
+  margin-top: 5rem;
+  color: white;
+  background-color: var(--primary-green--);
+  border: none;
+  text-transform: uppercase;
+  padding: 2.5rem 3.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.offers4 div button:hover {
+  background-color: #00ab80;
+}

@@ -1,0 +1,139 @@
+.latest-section {
+  font-size: 1.6rem;
+  padding: 2rem;
+  margin: auto;
+  justify-items: center;
+  background-color: whitesmoke;
+}
+
+.latest-section h2 {
+  font-size: 2.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.latest-section .black-line {
+  background-color: black;
+  height: 1px;
+  width: 10rem;
+  margin: 0 0 0.55rem 0;
+}
+
+.latest-section .black-line2 {
+  background-color: black;
+  height: 1px;
+  width: 6rem;
+  margin: 0 0 2rem 0;
+}
+
+.vehicles-for-sale {
+  position: relative;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.vehicles-for-sale .vehicle img {
+  width: 34.8rem;
+  cursor: pointer;
+}
+
+.vehicles-for-sale .vehicle {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.vehicles-for-sale .vehicle div {
+  padding: 2rem;
+  text-align: left;
+}
+
+.vehicles-for-sale .vehicle h5 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.vehicles-for-sale .vehicle p {
+  color: #a0a0a0;
+  margin: 1rem 0;
+}
+
+.vehicles-for-sale .price {
+  text-align: left;
+  font-size: 2.5rem;
+  margin-right: 10rem;
+}
+
+.vehicles-for-sale .vehicle span {
+  color: var(--primary-green--);
+  text-align: right;
+  font-weight: 540;
+}
+
+.vehicles-for-sale .vehicle div svg {
+  fill: #a0a0a0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.vehicles-for-sale .stats {
+  display: grid;
+  grid-template-columns: 1fr repeat(2, 1.45fr);
+  background-color: rgb(247, 247, 247);
+}
+
+.vehicles-for-sale .stats p svg {
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-right: 0.35rem;
+}
+
+.vehicles-for-sale .stats p:hover {
+  cursor: default;
+  color: var(--primary-green--);
+}
+
+.vehicles-for-sale button {
+  cursor: pointer;
+  padding: 0.7rem 0.7rem 0.4rem;
+  background-color: var(--primary-green--);
+  border: none;
+}
+
+.latest-section button svg {
+  fill: white;
+}
+
+.vehicles-for-sale .arrow-left {
+  position: absolute;
+  left: -5%;
+}
+
+.vehicles-for-sale .arrow-right {
+  position: absolute;
+  right: -5%;
+}
+
+.latest-section a button {
+  font-family: "Source Sans 3", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: var(--primary-green--);
+  color: white;
+  margin: 2rem 0;
+  border: none;
+  padding: 1.2rem 5.2rem;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.latest-section a button svg {
+  width: 1.4rem;
+  height: 1.4rem;
+}
+
+.latest-section button:hover {
+  background-color: #00ab80;
+}

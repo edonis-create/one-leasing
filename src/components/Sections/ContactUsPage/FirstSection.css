@@ -1,0 +1,134 @@
+.contact-us-section {
+  background-color: #f6f6f6;
+  padding-bottom: 9rem;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.contact-us-section .container {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1.5rem;
+}
+
+.contact-us-section .input-div input {
+  box-sizing: border-box;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.1rem;
+  box-shadow: none;
+  color: #555;
+  font-size: 1.5rem;
+  padding: 1.5rem 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-us-section .input-div input:focus {
+  outline: none;
+  border: 0.1rem solid #555;
+}
+
+.contact-us-section .btn-div {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+}
+
+.contact-us-section .submit-button {
+  color: #ffffff;
+  background-color: #a9d15a;
+  border: 0.1rem solid #a9d15a;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  font-family: "Source Sans Pro", sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.contact-us-section .submit-button:hover {
+  background-color: #00ab80;
+}
+
+.contact-us-section .right-section {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.contact-us-section .input-message textarea {
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  background-image: none;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.1rem;
+  box-shadow: none;
+  color: #555;
+  font-size: 1.5rem;
+  padding: 1.5rem 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-us-section .input-message textarea:focus {
+  outline: none;
+  border: 0.1rem solid #555;
+}
+
+.contact-us-section .input-message {
+  height: 100%;
+}
+
+.contact-us-section .form-left,
+.contact-us-section .form-mid,
+.contact-us-section .form-right {
+  padding: 0 1.5rem;
+}
+
+.contact-us-section .form-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.contact-us-section .form-right p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.contact-us-section .info-div {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-us-section .info-div a {
+  text-decoration: none;
+  color: #a9d15a;
+  line-height: 1.6rem;
+  margin: 0 0 1rem;
+}
+
+.contact-us-section .info-div p {
+  line-height: 1.6rem;
+  margin: 0 0 1rem;
+}
+
+.contact-us-section .info-div svg {
+  position: absolute;
+  top: 0.4rem;
+  left: 0;
+  width: 2rem;
+  height: 2rem;
+  fill: #a9d15a;
+}
+
+.contact-us-section .grey-p p {
+  color: #777;
+}

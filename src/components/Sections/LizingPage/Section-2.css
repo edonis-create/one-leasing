@@ -1,0 +1,78 @@
+.how-lizing {
+  background-color: whitesmoke;
+  padding: 5rem 0;
+}
+
+.how-lizing .upper-div {
+  padding: 5rem;
+  justify-items: center;
+}
+
+.how-lizing h2 {
+  font-size: 3rem;
+}
+
+.how-lizing .black-line,
+.how-lizing .black-line2 {
+  background-color: black;
+  height: 1px;
+  width: 10rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.how-lizing .black-line2 {
+  width: 6rem;
+  margin: 0 0 3rem 0;
+}
+
+.how-lizing .lower-div {
+  width: 55%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.how-lizing .lower-div div {
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+}
+
+.how-lizing .lower-div div p {
+  font-size: 1.7rem;
+  line-height: 1.1;
+  color: var(--secondary-color--);
+}
+
+.leasing-icon-container2 {
+  box-shadow: -2px 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  align-content: center;
+  justify-items: center;
+  background-color: white;
+}
+
+.leasing-icon-container2 img {
+  width: 4rem;
+}
+
+.how-lizing button {
+  color: white;
+  background-color: var(--primary-green--);
+  padding: 1.5rem 5rem;
+  font-size: 1.3rem;
+  font-weight: 550;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.how-lizing button:hover {
+  background-color: #00ab80;
+}

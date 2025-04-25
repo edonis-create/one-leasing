@@ -1,0 +1,117 @@
+footer {
+  border-top: 1px dashed rgb(0, 0, 0, 0.15);
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.footer {
+  width: 80%;
+  margin: auto;
+  font-size: 1.6rem;
+  color: var(--secondary-color--);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container img {
+  height: 7.5rem;
+}
+
+.footer-container ul {
+  text-align: left;
+  line-height: 2.5rem;
+}
+
+.footer-container div li {
+  list-style: none;
+  margin-bottom: 1.3rem;
+  transition: all 0.15s;
+}
+
+.footer-container div li:hover {
+  cursor: pointer;
+  color: var(--primary-green--);
+}
+.sign-up {
+  padding: 0;
+}
+
+.sign-up div {
+  display: flex;
+  gap: 0.2rem;
+}
+
+.sign-up h3 {
+  text-align: left;
+  font-weight: 500;
+}
+.footer input {
+  outline: none;
+  border: none;
+  background-color: whitesmoke;
+  text-align: left;
+  width: 250px;
+  font-size: 1.2rem;
+  padding: 1.5rem 1rem;
+}
+
+.footer button {
+  background-color: var(--primary-green--);
+  border: none;
+  color: white;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials a {
+  color: var(--primary-green--);
+  text-decoration: none;
+}
+
+.socials a svg {
+  fill: var(--primary-green--);
+  width: 1.7rem;
+  height: 1.7rem;
+  display: inline-block;
+}
+
+.socials a:visited {
+  color: var(--primary-green--);
+}
+
+.footer .socials {
+  text-align: left;
+}
+
+.footer .socials a,
+.footer .socials a:visited {
+  color: var(--primary-green--);
+}
+
+.footer div a {
+  color: var(--secondary-color--);
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+.footer div a:visited {
+  color: var(--secondary-color--);
+}
+
+.footer div a:hover {
+  color: var(--primary-green--);
+}
+
+.company-details {
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.6rem;
+}

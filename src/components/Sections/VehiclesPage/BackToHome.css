@@ -1,0 +1,33 @@
+.back-to-home-vehicles {
+  padding: 2rem 16rem;
+  background-color: #f6f6f6;
+}
+
+.back-to-home_vehicles {
+  display: flex;
+  align-items: center;
+}
+
+.back-to-home_vehicles p {
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  color: var(--secondary-color--);
+  cursor: pointer;
+}
+
+.back-to-home_vehicles p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.back-to-home_vehicles p span {
+  color: var(--primary-green--);
+  font-weight: 600;
+}
+
+.back-to-home_vehicles svg {
+  fill: var(--secondary-color--);
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+}

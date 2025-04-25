@@ -1,0 +1,40 @@
+.upp-right-left a {
+  text-decoration: none;
+}
+
+.vehicles-for-sale_list .vehicle .old-price {
+  text-decoration: line-through;
+  text-align: right;
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: black;
+}
+
+.vehicles-for-sale_list .upper-grid_ {
+  padding: 1.5rem;
+  padding-bottom: 0;
+}
+
+.vehicles-for-sale_list .upper-grid_ .first-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.vehicles-for-sale_list .upper-grid_ div div {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr 1fr;
+}
+
+.vehicles-for-sale_list .upper-grid_ h5 {
+  display: inline;
+}
+
+.vehicles-for-sale_list .upper-grid_ .price {
+  text-align: right;
+}
+
+.new-price {
+  font-size: 1.4rem;
+  color: var(--primary-green--);
+  display: inline;
+}

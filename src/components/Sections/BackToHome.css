@@ -1,0 +1,39 @@
+.back-to-home {
+  background-color: whitesmoke;
+  padding: 3rem 15rem;
+  text-align: left;
+}
+
+.back-to-home div {
+  display: flex;
+  align-items: center;
+}
+
+.back-to-home div p {
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  color: var(--secondary-color--);
+  cursor: pointer;
+}
+
+.back-to-home div p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.back-to-home div p span {
+  color: var(--primary-green--);
+}
+
+.back-to-home div svg {
+  fill: var(--secondary-color--);
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.back-to-home h2 {
+  font-size: 2.6rem;
+  margin: 0;
+  color: var(--primary-color--);
+}

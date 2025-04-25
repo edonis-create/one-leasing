@@ -1,0 +1,40 @@
+.top-brands {
+  background-color: whitesmoke;
+  margin: auto;
+  padding: 5rem 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+}
+
+.top-brands div {
+  text-align: left;
+  align-content: center;
+}
+
+.top-brands h3 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.top-brands h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.top-brands h3,
+.top-brands h1 {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-color--);
+}
+
+.top-brands .vehicles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-brands .vehicles img {
+  cursor: pointer;
+}

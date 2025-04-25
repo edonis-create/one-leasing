@@ -1,0 +1,216 @@
+.applyForLeasing {
+  width: 50%;
+  margin: 30px auto;
+  box-shadow: 0 5px 15px #00000080;
+  height: auto;
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1.7em;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.apply-divs {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.apply-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 1.5rem;
+}
+
+.apply-header span {
+  font-size: 1.6rem;
+}
+
+.apply-header span svg {
+  fill: black;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.apply-header h3 {
+  margin: 0;
+  font-weight: 700;
+  color: #232323;
+  font-size: 16px;
+  line-height: 1.42;
+}
+
+.apply-input-div {
+  box-sizing: border-box;
+  margin-bottom: 0;
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.apply-input-div input {
+  width: 100%;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-shadow: none;
+  color: #555;
+  font-size: 15px;
+  height: auto;
+  padding: 15px 12px;
+}
+
+.apply-input-div input:focus {
+  border: none;
+  outline: solid 1px #232323;
+}
+
+.required {
+  color: #a94442;
+}
+
+.apply-input-div p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #232323;
+  margin: 0;
+  margin-bottom: 5px;
+  line-height: 1.7rem;
+}
+
+.apply-div {
+  box-sizing: border-box;
+  margin-bottom: 0;
+  width: 100%;
+  padding: 0 15px;
+  line-height: 1.4rem;
+}
+
+.apply-div hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+.apply-div h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.6em;
+  color: #777;
+}
+
+.lizing-leasback-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lizing-leasback-ul li {
+  margin: 5px 0;
+  font-weight: 500;
+  color: #232323;
+  font-size: 16px;
+}
+
+.lizing-leasback-ul li label:hover {
+  cursor: pointer;
+  color: #a9d15a;
+}
+
+.lizing-leasback-ul li input {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.checkbox-agree {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checkbox-agree li label p {
+  color: #232323;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.7rem;
+  margin: 0;
+}
+
+.checkbox-agree li label p:hover {
+  color: #a9d15a;
+}
+
+.checkbox-agree li span {
+  display: block;
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+
+.checkbox-agree li label {
+  color: #232323;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.7rem;
+}
+
+.checkbox-agree li label:hover {
+  color: #a9d15a;
+}
+
+.checkbox-agree li input {
+  margin: 0;
+  margin-right: 15px;
+}
+
+.submit-apply-button {
+  border: #a9d15a;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #a9d15a;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 1px;
+  opacity: 0.65;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: "Source Sans Pro", sans-serif;
+  cursor: pointer;
+}
+
+.submit-apply-button:hover {
+  background-color: #00ab80;
+}
+
+.submit-apply-button-invalid {
+  border: #a9d15a;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #a9d15a;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 1px;
+  opacity: 0.65;
+  margin: 20px 0;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-family: "Source Sans Pro", sans-serif;
+  cursor: not-allowed;
+}
+
+.hover-all-green:hover p {
+  color: #a9d15a;
+}

@@ -1,0 +1,213 @@
+header a {
+  cursor: pointer;
+}
+
+.top-header {
+  background: #a9d15a;
+  background: -moz-linear-gradient(to right, #82b240, #a9d15a);
+  background: -webkit-linear-gradient(to right, #82b240, #a9d15a);
+  background: -webkit-gradient(linear, 100% 0, 0 0, from(#82b240), to(#a9d15a));
+  background: -o-linear-gradient(to right, #82b240, #a9d15a);
+  background: linear-gradient(to right, #82b240, #a9d15a);
+  color: white;
+  padding: 1rem 17rem;
+  text-align: left;
+}
+
+.top-header a {
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+  font-size: 1.4rem;
+  align-content: center;
+  justify-items: center;
+  transition: all 0.15s;
+}
+
+.top-header a:visited {
+  color: white;
+}
+
+.top-header a:hover {
+  opacity: 0.3;
+}
+
+.top-header a svg {
+  fill: white;
+  width: 1.5rem;
+  height: 1.3rem;
+  margin-top: 0.3rem;
+}
+
+.bottom-header {
+  padding: 1.4rem 17rem;
+  text-align: left;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bottom-header a svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.bottom-header a,
+.bottom-header a:visited {
+  color: var(--primary-color--);
+  text-decoration: none;
+}
+
+.bottom-header a:hover,
+.bottom-header a:hover svg {
+  color: var(--primary-green--);
+  fill: var(--primary-green--);
+}
+
+.bottom-header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.bottom-header a {
+  z-index: 10;
+}
+
+/* HIDDEN HOVER DIVS */
+
+header .services-page {
+  position: relative;
+  padding: 0;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  background-color: white;
+  z-index: 5;
+}
+
+.services-page .hidden {
+  position: absolute;
+  margin: 0;
+  top: 90%;
+  left: -5%;
+  list-style: none;
+  padding: 3.3rem 0 0 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  pointer-events: none;
+}
+
+.services-page:hover .hidden,
+.services-page .hidden:hover {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.services-page .hidden li {
+  cursor: pointer;
+  padding: 2rem 15rem 2rem 2rem;
+  width: 100%;
+}
+
+.services-page .hidden li:hover {
+  color: var(--primary-green--);
+}
+
+.services-page #lizing {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 2px solid var(--primary-green--);
+}
+
+/* BOSNA */
+
+.vehicles-page {
+  cursor: pointer;
+  padding: 0;
+}
+
+.vehicles-page .hidden {
+  position: absolute;
+  left: 10%;
+  top: 12%;
+  padding: 4.3rem 0 0 0;
+}
+
+.vehicles-page .hidden div {
+  padding: 0;
+  margin: 0;
+}
+
+.vehicles-page .hidden .inner-div {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 1rem;
+  border-top: 2px solid var(--primary-green--);
+}
+
+.vehicles-page:hover .hidden,
+.vehicles-page .hidden:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+.vehicles-page .hidden .inner-div div {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+}
+
+.vehicles-page .hidden ul {
+  align-self: flex-start;
+  list-style: none;
+  padding: 1rem 0 0 0.5rem;
+}
+
+.vehicles-page .hidden ul li {
+  margin-bottom: 2rem;
+}
+
+.vehicles-page .hidden ul li svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  fill: var(--secondary-color--);
+  margin-right: 1rem;
+}
+
+.vehicles-page .hidden ul li:hover {
+  color: var(--primary-green--);
+}
+
+.vehicles-page .hidden .inner-div div h3 {
+  align-self: flex-start;
+  padding-left: 2.5rem;
+}
+
+.vehicles-page .hidden .inner-div .car-brands {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  margin: 0;
+}
+
+.vehicles-page .hidden .car-brands img {
+  width: 7.5rem;
+}
+
+.vehicles-page .hidden .inner-div .car-types {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin: 0;
+}
+
+.vehicles-page .hidden .car-types img {
+  width: 10rem;
+}

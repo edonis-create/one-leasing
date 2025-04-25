@@ -1,0 +1,108 @@
+.resetBtn {
+  padding: 1rem 1.5rem;
+  background-color: var(--primary-green--);
+  border: var(--primary-green--);
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  border-radius: 1px;
+  font-weight: 540;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.left-container {
+  text-align: left;
+  padding: 0 15px;
+}
+
+.left-container select {
+  cursor: pointer;
+}
+
+.Cars-left {
+  box-sizing: border-box;
+  width: 360px;
+  border: solid 1px #eeeeee;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.h4-div {
+  border: solid 1px #eeeeee;
+}
+
+.h4-div h4 {
+  padding: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #232323;
+  font-size: 16px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.6em;
+}
+
+.select-div {
+  padding: 20px 25px;
+  border: 1px solid #eeeeee;
+}
+
+.select-div select {
+  padding: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  border: solid 1px #22242626;
+  color: #777;
+  outline: none;
+}
+
+.select-div select:focus {
+  outline: none;
+  border-color: #a9d15a;
+  box-shadow: none;
+}
+
+.select-div ul {
+  list-style: none;
+  padding: 0;
+}
+
+.select-div li {
+  padding: 5px 0;
+}
+
+.radio-label {
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+.checkbox-div ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checkbox-div li {
+  width: 50%;
+}
+
+.car-year-div {
+  gap: 10px;
+}
+
+#priceInput {
+  box-sizing: border-box;
+  padding: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  border: solid 1px #22242626;
+  color: #777;
+  outline: none;
+}

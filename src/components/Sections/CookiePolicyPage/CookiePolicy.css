@@ -1,0 +1,20 @@
+.cookiePrivacy {
+  padding: 9rem 0 6rem 0;
+  color: #777;
+}
+
+.cookiePrivacy .container {
+  box-sizing: border-box;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.cookiePrivacy .container p {
+  font-family: "Source Sans 3", sans-serif;
+  line-height: 1.6em;
+  font-size: 1.6rem;
+  margin: 0 0 1rem;
+  font-weight: 400;
+}

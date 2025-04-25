@@ -1,0 +1,58 @@
+.buy-or-loan-section {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -2;
+}
+
+.buy-or-loan-section .left-section,
+.buy-or-loan-section .right-section {
+  padding: 2rem 8rem;
+  text-align: center;
+  width: 50%;
+  height: 30rem;
+  text-align: left;
+}
+
+.buy-or-loan-section img {
+  z-index: 2;
+}
+
+.buy-or-loan-section .left-section {
+  background-color: whitesmoke;
+  justify-items: end;
+}
+
+.buy-or-loan-section .right-section {
+  background-color: rgb(240, 240, 240);
+}
+
+.buy-or-loan-section h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 0;
+  font-style: italic;
+  color: var(--primary-color--);
+}
+
+.buy-or-loan-section :link,
+.buy-or-loan-section :visited {
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: var(--primary-color--);
+  text-decoration: none;
+  margin: 0;
+}
+
+.buy-or-loan-section p {
+  font-size: 1.6rem;
+  width: 32rem;
+  color: var(--secondary-color--);
+  margin-top: 1rem;
+}
+
+.buy-or-loan-section img {
+  margin-top: 1rem;
+  width: 450px;
+}

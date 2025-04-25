@@ -1,0 +1,43 @@
+.leasing-offers-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+.leasing-offers-section div {
+  padding: 5rem 7rem;
+}
+
+.leasing-offers-section div h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 2rem;
+}
+
+.leasing-offers-section ul {
+  color: var(--secondary-color--);
+  padding: 0;
+  line-height: 2.6rem;
+}
+
+.leasing-offers-section .left-section li {
+  font-weight: 600;
+}
+
+.leasing-offers-section .right-section {
+  border-left: 2px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  margin-bottom: 5rem;
+}
+
+.leasing-offers-section .left-section:hover h4 {
+  color: var(--primary-green--);
+}
+
+.leasing-offers-section .right-section:hover h4 {
+  color: var(--primary-green--);
+}

@@ -1,0 +1,149 @@
+.faqs {
+  background-color: whitesmoke;
+  padding: 3rem 15rem;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.faqs .back-to-home_faq {
+  display: flex;
+  align-items: center;
+}
+
+.faqs .back-to-home_faq p {
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  color: var(--secondary-color--);
+  cursor: pointer;
+}
+
+.faqs .back-to-home_faq p a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.faqs .back-to-home_faq p span {
+  color: var(--primary-green--);
+  font-weight: 600;
+}
+
+.faqs .back-to-home_faq svg {
+  fill: var(--secondary-color--);
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.faqs .left-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.faqs .left-section h2 {
+  font-size: 2.6rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/* HIDDEN */
+
+.faqs .hidden {
+  display: none;
+}
+
+/* HIDDEN */
+
+.question-list {
+  list-style: none;
+  padding: 0;
+}
+.question-list .question {
+  font-weight: 500;
+}
+
+.question-list li div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-list .answer {
+  color: var(--secondary-color--);
+  font-size: 1.4rem;
+  line-height: 2;
+}
+
+.question-list li {
+  font-family: "Poppins", sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+}
+
+.question-list li:hover {
+  color: var(--primary-green--);
+  cursor: pointer;
+}
+
+.show-btn {
+  border: none;
+  padding: 0;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+/* RIGHT SECTION */
+
+.faqs .right-section {
+  margin-top: 5rem;
+}
+
+.faqs .right-section div {
+  background-color: white;
+  padding: 2rem 2.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.faqs .right-section h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: var(--secondary-color--);
+  margin: 0;
+  font-weight: 500;
+}
+
+.faqs .right-section div ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.faqs .right-section ul li {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.faqs .right-section ul li:hover {
+  color: var(--primary-green--);
+}
+
+.faqs .right-section ul li p {
+  margin: 0;
+}
+
+.faqs .right-section a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.faqs .right-section ul li svg {
+  width: 1.6rem;
+  height: 1.6rem;
+  fill: var(--secondary-color--);
+}
+
+.faqs .right-section ul li:first-of-type {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
